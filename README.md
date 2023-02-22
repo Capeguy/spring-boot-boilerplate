@@ -1,37 +1,37 @@
-# Spring Boot Boilerplate
- *Spring Boot Boilerplate* is a **starter kit**. This project is a very simple and useful.
- 
-## Technologies 
-- Spring Boot (v2.7.4)
-- Spring Data JPA
-- Spring Validation
-- Spring Security + JWT Token
-- PostgreSQL
-- Mapstruct
-- Lombok
-- Swagger
+# 🚀 Coding Challenge - Java Spring Boot API Development
 
-## Run the Application
+## 📝 Introduction
 
-First you need to make sure that the database is up. 
-If you're using Docker, you can use ```docker compose up -d``` command.
+Welcome to the Java Spring Boot API Development challenge! Your mission, should you choose to accept it, is to implement a set of REST APIs for managing users using the given Java Spring Boot boilerplate project.
 
-Navigate to the root of the project. For building the project using command line, run below command :
+Your task is to create, list, get, update, and delete users using the following APIs:
 
-``` mvn clean install```
+1. 🙋 Create User API: Implement a POST API to create a user.
+2. 📋 List Users API: Implement a GET API to list all users.
+3. 🔍 Get User API: Implement a GET API to get a single user.
+4. 📝 Update User API: Implement a PUT API to update a user.
+5. 🗑️ Delete User API: Implement a DELETE API to delete a user.
 
-Run service in command line. Navigate to *target* directory. 
+> You can refer to https://reqres.in/ for the request payload and response.
 
-``` java -jar spring-boot-boilerplate.jar ```
+## 📋 Requirements:
+
+* You should use Java Spring Boot to implement the APIs.
+* You should implement proper error handling and return appropriate error responses in case of invalid requests or errors.
+* You should write unit tests to test your API endpoints.
+
+## 🎁 Bonus:
+
+1. Implement pagination for the List Users API.
+2. Implement validation for the Create and Update User APIs to ensure that the name and job fields are not empty and have a maximum length of 50 characters.
+## 📤 Submission:
+
+* Use this Gitpod to do your development. 
+* You are allowed to use Google and Stack Overflow. However, you will be quizzed on how your code works. 
+* Implement the above APIs. 
+* Write unit tests to test your API endpoints. 
+* When you are done, please run the test command and show the output of the test execution. 
+Once the test execution has completed successfully, inform your interviewer. 
 
 
-
-### Others
-
- - [For Angular]
- 
-### License
-
-Apache License 2.0
-
-   [For Angular]: <https://github.com/Genc/angular-boilerplate>
+**Good luck and have fun! 🤖**
