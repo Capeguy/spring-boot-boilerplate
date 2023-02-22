@@ -5,10 +5,10 @@
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 
 tasks:
-  - init: mvn install -DskipTests=false
+  - init: mvn clean install -DskipTests=false
   - command: docker-compose up -d; 
 # Build and Run
-  - command: mvn clean install -DskipTests=false; mvn install -DskipTests=false; java -jar target/spring-boot-boilerplate.jar
+  - command: mvn spring-boot:run
 
 
 
