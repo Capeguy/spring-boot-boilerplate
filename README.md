@@ -6,11 +6,11 @@ Welcome to the Java Spring Boot API Development challenge! Your mission, should 
 
 Your task is to create, list, get, update, and delete users using the following APIs:
 
-1. 🙋 Create User API: Implement a POST API to create a user.
-2. 📋 List Users API: Implement a GET API to list all users.
-3. 🔍 Get User API: Implement a GET API to get a single user.
-4. 📝 Update User API: Implement a PUT API to update a user.
-5. 🗑️ Delete User API: Implement a DELETE API to delete a user.
+1. 🙋 Create CustomUser API: Implement a POST API to create a custom user.
+2. 📋 List CustomUser API: Implement a GET API to list all custom users.
+3. 🔍 Get CustomUser API: Implement a GET API to get a single custom user.
+4. 📝 Update CustomUser API: Implement a PUT API to update a custom user.
+5. 🗑️ Delete CustomUser API: Implement a DELETE API to delete a custom user.
 
 > You can refer to https://reqres.in/ for the request payload and response.
 
