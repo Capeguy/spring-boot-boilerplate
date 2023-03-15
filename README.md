@@ -2,17 +2,17 @@
 
 ## 📝 Introduction
 
-Welcome to the Java Spring Boot API Development challenge! Your mission, should you choose to accept it, is to implement a set of REST APIs for managing users using the given Java Spring Boot boilerplate project.
+Welcome to the Java Spring Boot API Development challenge! Your mission, should you choose to accept it, is to implement a set of REST APIs for managing Books using the given Java Spring Boot boilerplate project.
 
-Your task is to create, list, get, update, and delete users using the following APIs:
+Your task is to create, list, get, update, and delete Books using the following APIs:
 
-1. 🙋 Create CustomUser API: Implement a POST API to create a custom user.
-2. 📋 List CustomUser API: Implement a GET API to list all custom users.
-3. 🔍 Get CustomUser API: Implement a GET API to get a single custom user.
-4. 📝 Update CustomUser API: Implement a PUT API to update a custom user.
-5. 🗑️ Delete CustomUser API: Implement a DELETE API to delete a custom user.
+1. 🙋 Create Book API: Implement a POST API to create a book.
+2. 📋 List Book API: Implement a GET API to list all books.
+3. 🔍 Get Book API: Implement a GET API to get a single book.
+4. 📝 Update Book API: Implement a PUT API to update a book.
+5. 🗑️ Delete Book API: Implement a DELETE API to delete a book.
 
-> You can refer to https://reqres.in/ for the request payload and response.
+> You can refer to https://bookstore.toolsqa.com/swagger/#/BookStore for the request payload and response.
 
 ## 📋 Requirements:
 
@@ -22,8 +22,8 @@ Your task is to create, list, get, update, and delete users using the following 
 
 ## 🎁 Bonus:
 
-1. Implement pagination for the List Users API.
-2. Implement validation for the Create and Update User APIs to ensure that the name and job fields are not empty and have a maximum length of 50 characters.
+1. Implement pagination for the List Books API.
+2. Implement validation for the Create and Update Book APIs to ensure that the name fields are not empty and have a maximum length of 50 characters.
 ## 📤 Submission:
 
 * Use this Gitpod to do your development. 

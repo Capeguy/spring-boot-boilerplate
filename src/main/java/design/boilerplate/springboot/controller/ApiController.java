@@ -6,22 +6,22 @@ import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
 
-import antlr.collections.List;
-import design.boilerplate.springboot.model.User;
-import design.boilerplate.springboot.repository.UserRepository;
 import io.swagger.v3.oas.annotations.parameters.RequestBody;
 
 
 @RestController
 public class ApiController {
-	UserRepository userRepo;
-	@GetMapping("/api/sayHello")
+	@GetMapping("/")
 	public ResponseEntity<String> sayHello() {
 		return ResponseEntity.ok("Hello Spring Boot Boilerplate");
 	}
-	
 
+	/** 
+	 * Implement your APIs here. You may create other files where neccesary.
+	 */
 
 }
